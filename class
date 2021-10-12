@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T20:04:01.807Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="bCGW8TwOtDpJcwD2CdeM" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T20:10:09.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="_64DT5G2vy_uY3Hxu0sn" version="15.5.1" type="github">
   <diagram id="BDTJK-Tvtl4ur_Owb8VI" name="Page-1">
     <mxGraphModel dx="514" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -17,16 +17,16 @@
           <mxGeometry y="88" width="290" height="152" as="geometry" />
         </mxCell>
         <mxCell id="gVjDdbquKyLYicJL39IZ-5" value="Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="180" width="230" height="290" as="geometry" />
+          <mxGeometry x="550" y="180" width="380" height="770" as="geometry" />
         </mxCell>
-        <mxCell id="gVjDdbquKyLYicJL39IZ-6" value="-firstname: String&#xa;-lastname: String&#xa;-contactNumber: int&#xa;-address: String&#xa;-NIC: String&#xa;-email: String&#xa;-employeeType&#xa;-salary: int&#xa;-availability: boolean&#xa;&#xa;+&#xa;+&#xa;+" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
-          <mxGeometry y="26" width="230" height="144" as="geometry" />
+        <mxCell id="gVjDdbquKyLYicJL39IZ-6" value="-firstname: String&#xa;-lastname: String&#xa;-contactNumber: int&#xa;-address: String&#xa;-NIC: String&#xa;-email: String&#xa;-employeeType&#xa;-salary: int&#xa;-availability: boolean&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
+          <mxGeometry y="26" width="380" height="144" as="geometry" />
         </mxCell>
         <mxCell id="gVjDdbquKyLYicJL39IZ-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
-          <mxGeometry y="170" width="230" height="8" as="geometry" />
+          <mxGeometry y="170" width="380" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gVjDdbquKyLYicJL39IZ-8" value="+ method(type): type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
-          <mxGeometry y="178" width="230" height="112" as="geometry" />
+        <mxCell id="gVjDdbquKyLYicJL39IZ-8" value="+ Employee()&#xa;+ Employee( firstname: String, lastname: String,&#xa;  contactNumber: int, address: String, NIC: String,&#xa;  email: String, employeeType, salary: int, availability: boolean)&#xa;+setEmployeeFirstname(firstname: String):void&#xa;+setEmployeeLastname(lastname: String):void&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
+          <mxGeometry y="178" width="380" height="592" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
