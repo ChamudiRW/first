@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-12T20:10:09.142Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="_64DT5G2vy_uY3Hxu0sn" version="15.5.1" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-12T20:27:03.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="_fnTjtpXI06lNyEJWpca" version="15.5.1" type="github">
   <diagram id="BDTJK-Tvtl4ur_Owb8VI" name="Page-1">
-    <mxGraphModel dx="514" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1038" dy="489" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,16 +17,16 @@
           <mxGeometry y="88" width="290" height="152" as="geometry" />
         </mxCell>
         <mxCell id="gVjDdbquKyLYicJL39IZ-5" value="Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="550" y="180" width="380" height="770" as="geometry" />
+          <mxGeometry x="550" y="180" width="380" height="1040" as="geometry" />
         </mxCell>
-        <mxCell id="gVjDdbquKyLYicJL39IZ-6" value="-firstname: String&#xa;-lastname: String&#xa;-contactNumber: int&#xa;-address: String&#xa;-NIC: String&#xa;-email: String&#xa;-employeeType&#xa;-salary: int&#xa;-availability: boolean&#xa;&#xa;&#xa;&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
-          <mxGeometry y="26" width="380" height="144" as="geometry" />
+        <mxCell id="gVjDdbquKyLYicJL39IZ-6" value="- emp_id: String&#xa;- firstname: String&#xa;- lastname: String&#xa;- contactnNmber: int&#xa;- address: String&#xa;- NIC: String&#xa;- email: String&#xa;- employeeType: String&#xa;- salary: int&#xa;- availability: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
+          <mxGeometry y="26" width="380" height="164" as="geometry" />
         </mxCell>
         <mxCell id="gVjDdbquKyLYicJL39IZ-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
-          <mxGeometry y="170" width="380" height="8" as="geometry" />
+          <mxGeometry y="190" width="380" height="8" as="geometry" />
         </mxCell>
-        <mxCell id="gVjDdbquKyLYicJL39IZ-8" value="+ Employee()&#xa;+ Employee( firstname: String, lastname: String,&#xa;  contactNumber: int, address: String, NIC: String,&#xa;  email: String, employeeType, salary: int, availability: boolean)&#xa;+setEmployeeFirstname(firstname: String):void&#xa;+setEmployeeLastname(lastname: String):void&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+setEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;+getEmployee&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
-          <mxGeometry y="178" width="380" height="592" as="geometry" />
+        <mxCell id="gVjDdbquKyLYicJL39IZ-8" value="&#xa;+ Employee()&#xa;  &#xa;+ Employee (firstname: String, lastname: String, contactnNmber: int,&#xa; address:&#xa;  String, NIC: String, email: String, employeeType: String,&#xa; salary: int,&#xa;  availability: String)&#xa;  &#xa;+ setEmployeeId(emp_id: String): void&#xa;  &#xa;+ setEmployeeFirstName(firstname: String): void&#xa;  &#xa;+ setEmployeeLastName(lastname: String): void&#xa;  &#xa;+ setEmployeeContactNumber(contactnNmber: int): void&#xa;  &#xa;+ setEmployeeAddress(address: String): void&#xa;  &#xa;+ setEmployeeNIC(NIC: String): void&#xa;  &#xa;+ setEmployeeEmail(email: String): void&#xa;  &#xa;+ setEmployeeType(employeeType: String): void&#xa;  &#xa;+ setEmployeeSalary(salary: int): void&#xa;  &#xa;+ setEmployeeAvailability(availability: String): void&#xa;  &#xa;+ getEmployeeId(): String&#xa;  &#xa;+ getEmployeeFirstName(): String&#xa;  &#xa;+ getEmployeeLastName(): String&#xa;  &#xa;+ getEmployeeContactNumber(): int&#xa;  &#xa;+ getEmployeeAddress(): String&#xa;  &#xa;+ getEmployeeNIC(): String&#xa;  &#xa;+ getEmployeeEmail(): String&#xa;  &#xa;+ getEmployeeType(): String&#xa;  &#xa;+ getEmployeeSalary(): int&#xa;  &#xa;+ getEmployeeAvailability(): String&#xa;  &#xa;+ getAllEmployees(): List&lt;Employee&gt;&#xa;  &#xa;+ getEmployeeById(emp_id: String): Response Entity&lt;Employee&gt;&#xa;  &#xa;+ createEmployee(employee:Employee): Employee&#xa;  &#xa;+ updateEmployee(emp_id: String): Response Entity&lt;Employee&gt;&#xa;  &#xa;+ deleteEmployee(emp_id: String): Map&lt;String, Boolean&gt;&#xa;  &#xa; &#xa;  &#xa; &#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="gVjDdbquKyLYicJL39IZ-5">
+          <mxGeometry y="198" width="380" height="842" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
