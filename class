@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T15:02:49.879Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="SP1QqjHbXqZINdST0F6P" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-13T15:11:27.653Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="uecXUfAXcUPnV5n-NkLO" version="15.5.2" type="github">
   <diagram id="BDTJK-Tvtl4ur_Owb8VI" name="Page-1">
-    <mxGraphModel dx="4237" dy="2023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2635" dy="501" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -88,7 +88,7 @@
         <mxCell id="FpAGj3vtqsQFm5m1Ybob-21" value="+ Admin()&#xa;+ Admin(cusname: String, telnum: int, &#xa;username: String,&#xa;email: String, password: String)&#xa;+ setAdminId(cus_id: String): void&#xa;+ setAdminName(cusname: String): void&#xa;+ setAdminTelnum(telnum: int): void&#xa;+ setAdminUsername(username: String): void&#xa;+ setAdminEmail(email: String): void&#xa;+ setAdminPassword(password: String): void&#xa;+ getAdminId():String&#xa;+ getAdminName(): String&#xa;+ getAdminTelnum(): int&#xa;+ getAdminUsername(): String&#xa;+ getAdminEmail(): String&#xa;+ getAdminPassword(): String&#xa;+ getAdminById(cus_id: String): &#xa;ResponseEntity&lt;Admin&gt;&#xa;+ createAdmin(admin:Admin): Admin&#xa;+updateAdmin(cus_id: String): &#xa;ResponseEntity&lt;Admin&gt;&#xa;+deleteAdmin(cus_id: String): &#xa;Map&lt;String, Boolean&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-18">
           <mxGeometry y="138" width="300" height="342" as="geometry" />
         </mxCell>
-        <mxCell id="FpAGj3vtqsQFm5m1Ybob-23" value="" style="endArrow=none;html=1;rounded=0;exitX=1.012;exitY=0.595;exitDx=0;exitDy=0;exitPerimeter=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="FpAGj3vtqsQFm5m1Ybob-17" target="FpAGj3vtqsQFm5m1Ybob-4">
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-23" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;" edge="1" parent="1" source="FpAGj3vtqsQFm5m1Ybob-17" target="FpAGj3vtqsQFm5m1Ybob-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="60" y="1120" as="sourcePoint" />
             <mxPoint x="110" y="1070" as="targetPoint" />
@@ -144,6 +144,18 @@
             <mxPoint x="-920" y="430" as="sourcePoint" />
             <mxPoint x="-870" y="380" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-31" value="Food" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="440" y="540" width="300" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-32" value="- itemName: String&#xa;- itemCat: String&#xa;- itemno: int&#xa;- price : int&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-31">
+          <mxGeometry y="26" width="300" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-33" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-31">
+          <mxGeometry y="130" width="300" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-34" value="+ Food()&#xa;+ Food(itemName: String, itemCat: String, &#xa;itemno: int, price:int)&#xa;+ setFooditemName(itemName: String): void&#xa;+ setFooditemCat(itemCat: String): void&#xa;+ setCustomerTelnum(telnum: int): void&#xa;+ setCustomerUsername(username: String): void&#xa;+ setCustomerEmail(email: String): void&#xa;+ setCustomerPassword(password: String): void&#xa;+ getCustomerId():String&#xa;+ getCustomerName(): String&#xa;+ getCustomerTelnum(): int&#xa;+ getCustomerUsername(): String&#xa;+ getCustomerEmail(): String&#xa;+ getCustomerPassword(): String&#xa;+ getCustomerById(cus_id: String): &#xa;ResponseEntity&lt;Customer&gt;&#xa;+ createCustomer(customer:Customer): Customer&#xa;+updateCustomer(cus_id: String): &#xa;ResponseEntity&lt;Customer&gt;&#xa;+deleteCustomer(cus_id: String): &#xa;Map&lt;String, Boolean&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-31">
+          <mxGeometry y="138" width="300" height="342" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
