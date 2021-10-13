@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T14:54:47.680Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="1cAl0Ykb-EtftQmc9ChZ" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-13T14:57:27.057Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="lR0U27CxiZEUosQ5GpZb" version="15.5.2" type="github">
   <diagram id="BDTJK-Tvtl4ur_Owb8VI" name="Page-1">
-    <mxGraphModel dx="1185" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="4237" dy="2023" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="gVjDdbquKyLYicJL39IZ-1" value="Feedback" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="210" y="180" width="290" height="240" as="geometry" />
+          <mxGeometry x="370" y="120" width="290" height="240" as="geometry" />
         </mxCell>
         <mxCell id="gVjDdbquKyLYicJL39IZ-2" value="- fullname: String&#xa;- email: String&#xa;- message: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gVjDdbquKyLYicJL39IZ-1" vertex="1">
           <mxGeometry y="26" width="290" height="54" as="geometry" />
@@ -17,7 +17,7 @@
           <mxGeometry y="88" width="290" height="152" as="geometry" />
         </mxCell>
         <mxCell id="gVjDdbquKyLYicJL39IZ-5" value="Employee" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="550" y="180" width="380" height="660" as="geometry" />
+          <mxGeometry x="-1060" y="580" width="380" height="660" as="geometry" />
         </mxCell>
         <mxCell id="gVjDdbquKyLYicJL39IZ-6" value="- emp_id: String&#xa;- firstname: String&#xa;- lastname: String&#xa;- contactnNmber: int&#xa;- address: String&#xa;- NIC: String&#xa;- email: String&#xa;- employeeType: String&#xa;- salary: int&#xa;- availability: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="gVjDdbquKyLYicJL39IZ-5" vertex="1">
           <mxGeometry y="26" width="380" height="164" as="geometry" />
@@ -29,7 +29,7 @@
           <mxGeometry y="198" width="380" height="462" as="geometry" />
         </mxCell>
         <mxCell id="FpAGj3vtqsQFm5m1Ybob-1" value="Occasion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="110" y="690" width="290" height="430" as="geometry" />
+          <mxGeometry x="40" y="450" width="290" height="430" as="geometry" />
         </mxCell>
         <mxCell id="FpAGj3vtqsQFm5m1Ybob-2" value="- occasionID:String&#xa;- numberOfGuests: int&#xa;- Time: time&#xa;- date: int&#xa;- menu :String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-1">
           <mxGeometry y="26" width="290" height="84" as="geometry" />
@@ -65,7 +65,7 @@
           <mxGeometry y="218" width="400" height="482" as="geometry" />
         </mxCell>
         <mxCell id="FpAGj3vtqsQFm5m1Ybob-14" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="675" y="1420" width="300" height="480" as="geometry" />
+          <mxGeometry x="-413" y="710" width="300" height="480" as="geometry" />
         </mxCell>
         <mxCell id="FpAGj3vtqsQFm5m1Ybob-15" value="- cus_id: String&#xa;- cusname: String&#xa;- telnum: int&#xa;- username: String&#xa;- email: String&#xa;- password: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-14">
           <mxGeometry y="26" width="300" height="104" as="geometry" />
@@ -76,8 +76,8 @@
         <mxCell id="FpAGj3vtqsQFm5m1Ybob-17" value="+ Customer()&#xa;+ Customer(cusname: String, telnum: int, &#xa;username: String,&#xa;email: String, password: String)&#xa;+ setCustomerId(cus_id: String): void&#xa;+ setCustomerName(cusname: String): void&#xa;+ setCustomerTelnum(telnum: int): void&#xa;+ setCustomerUsername(username: String): void&#xa;+ setCustomerEmail(email: String): void&#xa;+ setCustomerPassword(password: String): void&#xa;+ getCustomerId():String&#xa;+ getCustomerName(): String&#xa;+ getCustomerTelnum(): int&#xa;+ getCustomerUsername(): String&#xa;+ getCustomerEmail(): String&#xa;+ getCustomerPassword(): String&#xa;+ getCustomerById(cus_id: String): &#xa;ResponseEntity&lt;Customer&gt;&#xa;+ createCustomer(customer:Customer): Customer&#xa;+updateCustomer(cus_id: String): &#xa;ResponseEntity&lt;Customer&gt;&#xa;+deleteCustomer(cus_id: String): &#xa;Map&lt;String, Boolean&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-14">
           <mxGeometry y="138" width="300" height="342" as="geometry" />
         </mxCell>
-        <mxCell id="FpAGj3vtqsQFm5m1Ybob-18" value="Customer" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1420" width="300" height="480" as="geometry" />
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-18" value="Admin" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="-580" y="140" width="300" height="480" as="geometry" />
         </mxCell>
         <mxCell id="FpAGj3vtqsQFm5m1Ybob-19" value="- admin_id: String&#xa;- adminname: String&#xa;- telnum: int&#xa;- username: String&#xa;- email: String&#xa;- password: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-18">
           <mxGeometry y="26" width="300" height="104" as="geometry" />
