@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-10-13T14:22:07.043Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="WXV6udi98wvaWoMTU1qG" version="15.5.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-10-13T14:25:33.965Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36" etag="0giAExX7yukGyDUkuJ8v" version="15.5.2" type="github">
   <diagram id="BDTJK-Tvtl4ur_Owb8VI" name="Page-1">
     <mxGraphModel dx="1673" dy="855" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -39,6 +39,18 @@
         </mxCell>
         <mxCell id="FpAGj3vtqsQFm5m1Ybob-4" value=" +occasion()&#xa;+occasion(email: String, numberOfGuests: int,&#xa; Time: time, Date: int, menu: String,)&#xa;+setoccasionID(occasionID:String):void&#xa;+ setIemail(email:String): void&#xa;+ setnumberOfGuests&#xa;(numberOfguests: int): void&#xa;+ setTime(Time:time): void&#xa;+ setDate(Date:int): void&#xa;+ setMenu (Menu:String): void&#xa;+getemail():String&#xa;+getnumberOfGuests(): int&#xa;+ getTime(): time&#xa;+ getDate(): int&#xa;+ getMenu(): String&#xa;+getAllOccasions()::List&lt;occasion&gt;&#xa;+addOccasion(occasion:Occasion):Occasion&#xa;+updateOccasion(occasionID: String):&#xa; Response Entity&lt;occasion&gt;&#xa;+deleteOccasion(occasionID:String): &#xa; Map&lt;String,Boolean&gt;&#xa;&#xa;&#xa; " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-1">
           <mxGeometry y="118" width="290" height="312" as="geometry" />
+        </mxCell>
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-6" value="Room" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="880" width="430" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-7" value=" room_id: String&#xa;//Image array&#xa;//currentbookings array&#xa;- name: String&#xa;- type: String&#xa;- size: int&#xa;- number: int&#xa;- description: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-6">
+          <mxGeometry y="26" width="430" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-6">
+          <mxGeometry y="150" width="430" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="FpAGj3vtqsQFm5m1Ybob-9" value="+ Room()&#xa;+ Room(name: String, type: String, size: int, number: int, description: String)&#xa;+ setRoomId(room_id: String): void&#xa;+ setRoomName(name: String): void&#xa;+ setRoomType(type: String): void&#xa;+ setRoomSize(size: int): void&#xa;+ setRoomNumber(number: int): void&#xa;+ setRoomDesc(description: String): void&#xa;+ getRoomId(): String&#xa;+ getRoomName():String&#xa;+ getRoomType():String&#xa;+ getRoomSize(): int&#xa;+ getRoomNumber(): int&#xa;+ getRoomDesc(): String&#xa;+ getAllRooms(): List&#xa;+ getRoomById(room_id: String): Response Entity&#xa;+ createRoom(room:Room): Room&#xa;+ updateRoom(room_id: String): Response Entity&#xa;+ deleteRoom(room_id: String): Map" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="FpAGj3vtqsQFm5m1Ybob-6">
+          <mxGeometry y="158" width="430" height="292" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
